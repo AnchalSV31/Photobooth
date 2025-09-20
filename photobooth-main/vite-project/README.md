@@ -1,12 +1,72 @@
+# 📸 PixieBooth - Digital Photo Booth
+
+A modern React-based photo booth application that recreates the classic photo booth experience in your browser.
+
+## ✨ Features
+
+- **Coin-operated interface** with animated curtain
+- **Multiple photo options**: 1, 2, 3, or 6 photos (2×3 grid)
+- **20+ professional filters** (Vintage, Golden Hour, Film Noir, etc.)
+- **Real-time webcam preview** with live filter effects
+- **Instant photo strip download** in high quality
+- **Mobile-friendly** design
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/AnchalSV31/Photobooth
+
+# Install dependencies
+npm install
+
+# Start the application
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) and allow camera permissions.
+
+## 🎮 How to Use
+
+1. Click "INSERT COIN HERE" and click the golden coin
+2. Choose how many photos you want (1, 2, 3, or 6)
+3. Select your favorite filter
+4. Click the camera button and follow the countdown
+5. Download your photo strip!
+
+## 🛠️ Tech Stack
+
+- React 18
+- Vite (build tool)
+- react-webcam (camera access)
+- framer-motion (animations)
+- html2canvas (photo downloads)
+- CSS3 (styling)
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── Hero.jsx
+│   ├── PhotoBooth.jsx      # Coin insertion & curtain
+│   └── PhotoStudio.jsx     # Main photo capture
+├── App.js
+└── index.js
+```
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Use command "npm run dev" In VITE-PROJECT folder to run the project
 
-Currently, two official plugins are available:
+## 📱 Browser Support
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Works on Chrome, Firefox, Safari, and Edge. Requires camera permissions and HTTPS/localhost for security.
 
-## Expanding the ESLint configuration
+## 📄 License
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+MIT License - feel free to use for personal and commercial projects.
+
+---
+
+**Made with React ⚛️**
