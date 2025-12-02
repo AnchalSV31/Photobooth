@@ -71,5 +71,5 @@ MIT License - feel free to use for personal and commercial projects.
 # React + Vite
 # Use command "npm run dev" In VITE-PROJECT folder to run the project
 
-Or you can directly access through this LINK
-#[text](https://pixiephotobooth.netlify.app/)
+
+# You can directly access through this link -> https://pixiephotobooth.netlify.app
