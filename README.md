@@ -66,3 +66,7 @@ MIT License - feel free to use for personal and commercial projects.
 ---
 
 **Made with React ⚛️**
+
+
+# React + Vite
+# Use command "npm run dev" In VITE-PROJECT folder to run the project
