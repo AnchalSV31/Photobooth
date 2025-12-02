@@ -55,10 +55,6 @@ src/
 └── index.js
 ```
 
-# React + Vite
-
-# Use command "npm run dev" In VITE-PROJECT folder to run the project
-
 ## 📱 Browser Support
 
 Works on Chrome, Firefox, Safari, and Edge. Requires camera permissions and HTTPS/localhost for security.
@@ -70,3 +66,8 @@ MIT License - feel free to use for personal and commercial projects.
 ---
 
 **Made with React ⚛️**
+
+
+
+# React + Vite
+# Use command "npm run dev" In VITE-PROJECT folder to run the project
